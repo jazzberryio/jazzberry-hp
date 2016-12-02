@@ -9,7 +9,7 @@
   <meta name="keywords" content="Jazzberry Digital, Hand-Coded, Custom Websites">
 
   <link rel="stylesheet" href="public/css/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.ico">
 
   <title>{^title}Jazzberry Digital{:else}{title}{/title}</title>
 </head>
