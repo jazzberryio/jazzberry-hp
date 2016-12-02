@@ -1,3 +1,3 @@
-# adamkdean/sample-www
+# Jazzberry Holding Page
 
-Sample www using Node, Babel, Dust
+Hold the fort until the main website is ready to go live!
