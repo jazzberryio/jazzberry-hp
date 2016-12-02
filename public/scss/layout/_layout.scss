@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+// variables
+
+$mob:      480px;
+$mob--lrg: 640px;
+$tab:      768px;
+$tab--lrg: 820px;
+
+// mixins
+
+@mixin transition($sec) {
+	transition: $sec;
+	-webkit-transition: $sec;
+	-moz-transition: $sec;
+	-o-transition: $sec;
+}
+
+$min: min-width;
+$max: max-width;
+
+@mixin mq($value, $axis: false) {
+	@if $axis {
+		@media screen and ("max-"+$axis: $value) {
+			@content;
+		}
+	} @else {
+		@media screen and (max-width: $value) {
+			@content;
+		}
+	}
+}
+
+// layout
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @include mq($mob--lrg){
+    padding: 1rem;
+  }
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  margin-top: 15%;
+  @include mq($mob--lrg) {
+    padding: 1rem;
+    margin-top: 30%;
+    img {
+      width: 200px;
+    }
+  }
+}
+
+h1 {
+  color: #a50b5e;
+  font-weight: 100;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+
+}
+
+p {
+  color: #1d1d1d;
+  text-align: center;
+  font-weight: 300;
+}
+
+nav {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 2rem;
+  a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+    border: 1px solid #a50b5e;
+    padding: 1rem;
+    @include transition (0.5s);
+    &:hover {
+      border: 1px solid #1d1d1d;
+      padding: 1.1rem;
+      @include transition (0.5s);
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

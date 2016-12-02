@@ -2,6 +2,18 @@
 
 {<content}
 
-content here
+<div class="logo">
+  <img src="public/img/jazzberry-logo.png" alt="Jazzberry Digital" />
+</div>
+<h1>
+  Jazzberry Digital
+</h1>
+<p>
+  A small, friendly digital studio, specialising in hand coded, custom websites.
+</p>
+<nav>
+  <a href="https://twitter.com/jazzberryio"><img src="public/img/twitter.png" alt="Twitter" /></a>
+  <a href="https://www.facebook.com/pg/jazzberryio/"><img src="public/img/facebook.png" alt="Facebook" /></a>
+</nav>
 
 {/content}

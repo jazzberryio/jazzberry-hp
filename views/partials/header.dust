@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="A small, friendly digital studio specialising in hand-coded, custom websites">
+  <meta name="author" content="Kirsty Rose">
+  <meta name="keywords" content="Jazzberry Digital, Hand-Coded, Custom Websites">
 
   <link rel="stylesheet" href="public/css/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon/favicon.ico">
 
-  <title>{^title}title here{:else}{title}{/title}</title>
+  <title>{^title}Jazzberry Digital{:else}{title}{/title}</title>
 </head>
 <body>
